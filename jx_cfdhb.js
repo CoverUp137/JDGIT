@@ -56,7 +56,7 @@ function cashOut(ac) {
 
 function taskUrl(function_path, body, ck) {
     return {
-        url: `${JD_API_HOST}jxbfd/${function_path}?strZone=jxbfd&bizCode=jxbfd&source=jxbfd&dwEnv=7&_cfd_t=${Date.now()}&ptag=7155.9.47&dwType=3&dwLvl=1&${body}&_stk=_cfd_t%2CbizCode%2CddwPaperMoney%2CdwEnv%2CdwLvl%2CdwType%2Cptag%2Csource%2CstrPoolName%2CstrZone&_ste=1&h5st=20210819160201515%3B2024000511801161%3B10032%3Btk01wd8801c8330nUzEYWcxfv90nUiz51xjmwifKZ%2FvVwuMBb0YqlZoUJAOVvYX2kKpPk79i2gsD6U7Jav91gemM%2B1nD%3B3990f9f1796c74bb109c1ea063d797287e5ad3799186016350aaa850c1d87eef&_=${Date.now()}&sceneval=2&g_login_type=1&g_ty=ls`,
+        url: `${JD_API_HOST}jxbfd/${function_path}?strZone=jxbfd&bizCode=jxbfd&source=jxbfd&dwEnv=7&_cfd_t=${Date.now()}&ptag=7155.9.47&dwType=2&dwLv3=1&${body}&_stk=_cfd_t%2CbizCode%2CdwEnv%2CdwType%2Cptag%2Csource%2CstrZone&_ste=1&h5st=20210930084312075%3B3582667747922162%3B10032%3Btk01wbc171c8a30nqX%2BS3604OwKEmgwufwzuAagQPrp%2FwvVadeX6YY5mDVijfJHIdPZ8uKJWdhTCeXHqt5%2FGoRTSJ1jg%3B28cde0dd85f2950cd50a561fcb3ae84efd3dae6f2f977d6212550914a23a9bbf&_=${Date.now()}&sceneval=2&g_login_type=1&g_ty=ls`,
         headers: {
             Cookie: ck,
             Accept: "*/*",
