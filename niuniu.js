@@ -1,12 +1,12 @@
 /**
  *
  Name:财富岛兑换红包
- cron 0 * * * * jx_cfdhb.js
+ cron 0 * * * * niuniu.js
  更新时间：2021-9-3 调调
  *
  **/
 
-const $ = new Env("财富岛兑换红包");
+const $ = new Env("牛牛的100");
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 const JD_API_HOST = "https://m.jingxi.com/";
 $.cookieArr = [];
