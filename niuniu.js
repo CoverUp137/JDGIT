@@ -8,7 +8,7 @@
 
 const $ = new Env("牛牛的100");
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
-`https://api.m.jd.com/api?appid=jdsupermarket`;
+const JD_API_HOST = `https://api.m.jd.com/api?appid=jdsupermarket`;
 
 Date.prototype.Format = function (fmt) { //author: meizz
 
