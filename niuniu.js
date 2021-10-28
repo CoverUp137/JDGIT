@@ -56,7 +56,7 @@ function cashOut(ac) {
 
 function taskUrl(function_path, body, ck) {
     return {
-        url: `${JD_API_HOST}jxbfd/${function_path}?strZone=jxbfd&bizCode=jxbfd&source=jxbfd&dwEnv=7&_cfd_t=${Date.now()}&ptag=7155.9.47&dwType=3&dwLvl=3&${body}&_stk=_cfd_t%2CbizCode%2CddwPaperMoney%2CdwEnv%2CdwLvl%2CdwType%2Cptag%2Csource%2CstrPgUUNum%2CstrPgtimestamp%2CstrPhoneID%2CstrPoolName%2CstrZone&_ste=1&h5st=20210930084315279%3B3582667747922162%3B10032%3Btk01wbc171c8a30nqX%2BS3604OwKEmgwufwzuAagQPrp%2FwvVadeX6YY5mDVijfJHIdPZ8uKJWdhTCeXHqt5%2FGoRTSJ1jg%3Be4e2e9709269ed9d4e246af970d4a94bdd3e5049e4f9b709685b51279eed131d&_=${Date.now()}&sceneval=2&g_login_type=1&g_ty=ls`,
+        url: `${JD_API_HOST}jxbfd/${function_path}?strZone=jxbfd&bizCode=jxbfd&source=jxbfd&dwEnv=7&_cfd_t=${Date.now()}&ptag=7155.9.47&dwType=3&dwLvl=15&${body}&_stk=_cfd_t%2CbizCode%2CddwPaperMoney%2CdwEnv%2CdwLvl%2CdwType%2Cptag%2Csource%2CstrPgUUNum%2CstrPgtimestamp%2CstrPhoneID%2CstrPoolName%2CstrZone&_ste=1&h5st=20211028232842180%3B3582667747922162%3B10032%3Btk01w5f6d1ad230nL0EO9AaVNZKxu2FArgb%2B8wKCN5E4gWi2RduiGnMKJ%2FcS6vv4QEGQ28HcR9PgcUEBQAaBdVLfbers%3Ba9cf8556da97242b30fd9cce9737ddc0293b126b4a3bc01d6e3ec6210709fe81&_=${Date.now()}&sceneval=2&g_login_type=1&g_ty=ls`,
         headers: {
             Cookie: ck,
             Accept: "*/*",
