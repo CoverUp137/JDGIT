@@ -9,6 +9,15 @@
 const $ = new Env("牛牛的100");
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 const JD_API_HOST = "https://m.jingxi.com/";
+Date.prototype.Format = function (fmt) { //author: meizz
+  var o = {
+    "M+": this.getMonth() + 1, //月份
+    "d+": this.getDate(), //日
+    "h+": this.getHours(), //小时
+    "m+": this.getMinutes(), //分
+    "s+": this.getSeconds(), //秒
+    "S": this.getMilliseconds() //毫秒
+  };
 $.cookieArr = [];
 if ($.isNode()) {
     Object.keys(jdCookieNode).forEach((item) => {
