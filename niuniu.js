@@ -18,7 +18,7 @@ Date.prototype.Format = function (fmt) { //author: meizz
     "s+": this.getSeconds(), //秒
     "S": this.getMilliseconds() //毫秒
   };
-$.cookieArr = [];
+
 if ($.isNode()) {
     Object.keys(jdCookieNode).forEach((item) => {
         $.cookieArr.push(jdCookieNode[item])
