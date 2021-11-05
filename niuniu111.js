@@ -1,12 +1,11 @@
 /**
  *
- Name:牛牛的100
- cron 0 * * * * niuniu.js
- 更新时间：2021-9-3 调调
+ Name:牛牛的111
+ cron 0 * * * * niuniu111.js
  *
  **/
 
-const $ = new Env("牛牛的100");
+const $ = new Env("牛牛的111");
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 const JD_API_HOST = "https://m.jingxi.com/";
 $.cookieArr = [];
