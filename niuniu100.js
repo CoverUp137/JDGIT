@@ -1,7 +1,7 @@
 /**
  *
  Name:牛牛的100
- cron 0  * * * * niuniu100.js
+ cron 0 * * * * niuniu100.js
  *
  **/
 
