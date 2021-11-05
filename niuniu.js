@@ -1,7 +1,7 @@
 /**
  *
  Name:牛牛的100
- cron 0 * * * * niuniu.js
+ cron 2 * * * * niuniu.js
  更新时间：2021-9-3 调调
  *
  **/
