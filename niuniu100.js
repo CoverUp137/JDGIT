@@ -32,7 +32,7 @@ function cashOut(ac) {
         $.get(
             taskUrl(
                 `user/ExchangePrize`,
-                `ddwPaperMoney=100000&&strPoolName=jxcfd2_exchange_hb_202111&strPgtimestamp=undefined&strPhoneID=undefined&strPgUUNum=undefined`,
+                `ddwPaperMoney=100000&&strPoolName=jxcfd2_exchange_hb_202112&strPgtimestamp=undefined&strPhoneID=undefined&strPgUUNum=undefined`,
                 ac
             ),
             async (err, resp, data) => {
@@ -55,7 +55,7 @@ function cashOut(ac) {
 
 function taskUrl(function_path, body, ck) {
     return {
-        url: `${JD_API_HOST}jxbfd/${function_path}?strZone=jxbfd&bizCode=jxbfd&source=jxbfd&dwEnv=7&_cfd_t=${Date.now()}&ptag=7155.9.47&dwType=3&dwLvl=3&${body}&_stk=_cfd_t%2CbizCode%2CddwPaperMoney%2CdwEnv%2CdwLvl%2CdwType%2Cptag%2Csource%2CstrPgUUNum%2CstrPgtimestamp%2CstrPhoneID%2CstrPoolName%2CstrZone&_ste=1&h5st=20211105083806455%3B3582667747922162%3B10032%3Btk01wc2c01c8c30nDaiXiTyliD9ejRgZS1%2BP7orRRP9QakqpHOanpqWdCkdbFaEX5Uct4qggTVY5Gx3C7XBNs6xg1xw%2F%3Be57c1c9ad68a3fd929a17a34ca93df8c1235e2439bd5709860825b490170f6dc&_=${Date.now()}&sceneval=2&g_login_type=1&g_ty=ls`,
+        url: `${JD_API_HOST}jxbfd/${function_path}?strZone=jxbfd&bizCode=jxbfd&source=jxbfd&dwEnv=7&_cfd_t=${Date.now()}&ptag=7155.9.47&dwType=3&dwLvl=1&${body}&_stk=_cfd_t%2CbizCode%2CddwPaperMoney%2CdwEnv%2CdwLvl%2CdwType%2Cptag%2Csource%2CstrPgUUNum%2CstrPgtimestamp%2CstrPhoneID%2CstrPoolName%2CstrZone&_ste=1&h5st=20211201214144080%3B4352902250074163%3B10032%3Btk01wa2e71b9a30ntEFB%2Fiv3Ii5rWmxIQesMfr1GiYWkl4BmH1RvC9vXNN1hWyBaV6bOAYnva4Pv6HbnJe6Wl406kGFG%3Bab46814e1d31d4bcf4380a12f0f83d9372a6fd28df9dbaa9121ebfe3438382d5&_=${Date.now()}&sceneval=2&g_login_type=1&g_ty=ls`,
         headers: {
             Cookie: ck,
             Accept: "*/*",
