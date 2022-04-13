@@ -6,9 +6,6 @@
 把机场域名，用户名和密码填到变量jcAccounts里，多账户用换行或者#隔开，格式：
 export jcAccounts='host=biteb.cc; username=你的用户名; password=你的密码;'
 
-自用的机场邀请(6元一个月)：
-https://biteb.cc/auth/register?code=v7wt
-*/
 const jsname = '机场签到'
 const $ = new Env(jsname);
 const logDebug = 0
